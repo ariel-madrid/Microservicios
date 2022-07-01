@@ -1,0 +1,10 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/ariel-madrid/Microservicios.git
